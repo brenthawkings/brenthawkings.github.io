@@ -84,5 +84,3 @@ topoCtx.closePath();
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
-//bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x, y);
-//topoCtx.bezierCurveTo(0, 0, 0, 0, 0, 0);
