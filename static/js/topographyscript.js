@@ -3,8 +3,8 @@ var topoCtx = topographyCanvas.getContext("2d");
 
 topoCtx.translate(0.5, 0.5);
 
-var topoCw = 200;
-var topoCh = 200;
+var topoCw = 325;
+var topoCh = 325;
 
 //gradient
 const topoGrd = topoCtx.createLinearGradient(
