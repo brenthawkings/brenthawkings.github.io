@@ -3,8 +3,8 @@ var topoCtx = topographyCanvas.getContext("2d");
 
 topoCtx.translate(0.5, 0.5);
 
-var topoCw = 133;
-var topoCh = 133;
+var topoCw = 200;
+var topoCh = 200;
 
 //gradient
 const topoGrd = topoCtx.createLinearGradient(
@@ -16,7 +16,7 @@ const topoGrd = topoCtx.createLinearGradient(
 topoGrd.addColorStop(0, "#ff0000");
 topoGrd.addColorStop(1, "#ff8800");
 topoCtx.strokeStyle = topoGrd;
-topoCtx.lineWidth = 0.0075 * topoCw;
+topoCtx.lineWidth = Math.round(0.0075 * topoCw);
 topoCtx.fillStyle = "#fff";
 
 for (let i = 0.17 * topoCh; i <= topoCh - 10; i += 0.05 * topoCh) {
@@ -61,23 +61,23 @@ topoCtx.closePath();
 //braces
 topoCtx.beginPath();
 topoCtx.strokeStyle = "#bdbdbd";
-topoCtx.lineWidth = 0.02 * topoCw;
+topoCtx.lineWidth = Math.round(0.02 * topoCw);
 //top left
-topoCtx.moveTo(0, 8);
+topoCtx.moveTo(0, 0.06 * topoCh);
 topoCtx.lineTo(0, 0);
-topoCtx.lineTo(8, 0);
+topoCtx.lineTo(0.06 * topoCw, 0);
 //top right
-topoCtx.moveTo(125, 0);
+topoCtx.moveTo(0.94 * topoCw, 0);
 topoCtx.lineTo(topoCw, 0);
-topoCtx.lineTo(topoCw, 8);
+topoCtx.lineTo(topoCw, 0.06 * topoCh);
 //bottom left
-topoCtx.moveTo(0, 125);
+topoCtx.moveTo(0, 0.94 * topoCh);
 topoCtx.lineTo(0, topoCh);
-topoCtx.lineTo(8, topoCh);
+topoCtx.lineTo(0.06 * topoCw, topoCh);
 //bottom right
-topoCtx.moveTo(topoCw, 125);
+topoCtx.moveTo(topoCw, 0.94 * topoCh);
 topoCtx.lineTo(topoCw, topoCh);
-topoCtx.lineTo(125, topoCh);
+topoCtx.lineTo(0.94 * topoCw, topoCh);
 topoCtx.stroke();
 topoCtx.closePath();
 

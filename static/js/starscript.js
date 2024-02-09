@@ -4,10 +4,10 @@ var starCtx = starCanvas.getContext("2d");
 starCtx.translate(0.5, 0.5);
 starCtx.strokeStyle = "#bdbdbd";
 
-var cW = 158;
-var cH = 100;
+var cW = 200;
+var cH = 133;
 
-starCtx.lineWidth = 0.002 * cW;
+starCtx.lineWidth = Math.round(0.002 * cW);
 
 //vertical
 starCtx.beginPath();
@@ -54,14 +54,7 @@ for (let i = 0.2 * cH; i <= 0.81 * cH; i += (0.6 * cH) / 10) {
   starCtx.stroke();
 }
 starCtx.closePath();
-/*
-starCtx.beginPath();
-starCtx.lineWidth = 0.004 * cW;
-starCtx.moveTo(0, 0.8 * cH);
-starCtx.lineTo(cW, 0.8 * cH);
-starCtx.stroke();
-starCtx.closePath();
-*/
+
 //circle
 starCtx.beginPath();
 const starGrd = starCtx.createLinearGradient(

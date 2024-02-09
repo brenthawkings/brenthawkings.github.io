@@ -4,76 +4,60 @@ body {
   font-family: system-ui;
   color: black;
 }
+.wrapper {
+}
 .name {
   background: -webkit-linear-gradient(60deg, #ff0000, #ffff00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 0px;
-}
-.content {
-  width: 360px;
-  margin: auto;
-}
-
-.webdev {
   margin-left: 5px;
+}
+.webdev {
   display: flex;
 }
-
 .webdev-h2 {
-  margin-top: 28px;
+  margin-top: 42px;
+  margin-left: 10px;
+  margin-right: 15px;
 }
-
 .uiux {
-  margin-left: -20px;
   display: flex;
 }
-
 .uiux-h2 {
-  margin-left: -13px;
-  margin-top: 83px;
+  margin-top: 79px;
+  margin-left: -5px;
 }
-
 .uofl {
   display: flex;
 }
-
 .uofl-text {
+  margin-top: 55px;
+  margin-left: 10px;
+  margin-right: 15px;
 }
-
 .uofl-h2 {
-  margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: -10px;
 }
 .uofl-h3 {
-  margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: -10px;
 }
 .uofl-h4 {
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
-
 .job {
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-left: 15px;
 }
-
 .job-text {
-  margin-left: 12px;
-  margin-top: 20px;
+  margin-top: 29px;
+  margin-left: 20px;
 }
-
 .job-h2 {
-  margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: -10px;
 }
-
 .job-h3 {
-  margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: -10px;
 }
 .job-h4 {
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
