@@ -10,54 +10,36 @@ body {
   background: -webkit-linear-gradient(60deg, #ff0000, #ffff00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: 0px;
-  margin-left: 5px;
 }
 .webdev {
   display: flex;
 }
 .webdev-h2 {
-  margin-top: 42px;
-  margin-left: 10px;
-  margin-right: 15px;
 }
 .uiux {
   display: flex;
 }
 .uiux-h2 {
-  margin-top: 79px;
-  margin-left: -5px;
 }
 .uofl {
   display: flex;
 }
 .uofl-text {
-  margin-top: 55px;
-  margin-left: 10px;
-  margin-right: 15px;
 }
 .uofl-h2 {
-  margin-bottom: -10px;
 }
 .uofl-h3 {
-  margin-bottom: -10px;
 }
 .uofl-h4 {
 }
 .job {
   display: flex;
-  margin-top: 30px;
-  margin-left: 15px;
 }
 .job-text {
-  margin-top: 29px;
-  margin-left: 20px;
 }
 .job-h2 {
-  margin-bottom: -10px;
 }
 .job-h3 {
-  margin-bottom: -10px;
 }
 .job-h4 {
 }
