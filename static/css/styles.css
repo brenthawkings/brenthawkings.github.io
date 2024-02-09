@@ -1,0 +1,79 @@
+body {
+  background: white;
+  background-size: cover;
+  font-family: system-ui;
+  color: black;
+}
+.name {
+  background: -webkit-linear-gradient(60deg, #ff0000, #ffff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+}
+.content {
+  width: 360px;
+  margin: auto;
+}
+
+.webdev {
+  margin-left: 5px;
+  display: flex;
+}
+
+.webdev-h2 {
+  margin-top: 28px;
+}
+
+.uiux {
+  margin-left: -20px;
+  display: flex;
+}
+
+.uiux-h2 {
+  margin-left: -13px;
+  margin-top: 83px;
+}
+
+.uofl {
+  display: flex;
+}
+
+.uofl-text {
+}
+
+.uofl-h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.uofl-h3 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.uofl-h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.job {
+  display: flex;
+  margin-top: 20px;
+}
+
+.job-text {
+  margin-left: 12px;
+  margin-top: 20px;
+}
+
+.job-h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.job-h3 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.job-h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
