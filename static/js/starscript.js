@@ -4,10 +4,10 @@ var starCtx = starCanvas.getContext("2d");
 starCtx.translate(0.5, 0.5);
 starCtx.strokeStyle = "#bdbdbd";
 
-var cW = 200;
-var cH = 133;
+var cW = 400;
+var cH = 300;
 
-starCtx.lineWidth = Math.round(0.002 * cW);
+starCtx.lineWidth = Math.round(0.004 * cW);
 
 //vertical
 starCtx.beginPath();

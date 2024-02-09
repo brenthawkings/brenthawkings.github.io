@@ -1,10 +1,10 @@
 var bCanvas = document.getElementById("bLogo");
 var bLogoCtx = bCanvas.getContext("2d");
 
-bLogoCtx.translate(0.5, 0.5);
+bLogoCtx.translate(-25.5, -25.5);
 
-var cW = 195;
-var cH = 195;
+var cW = 450;
+var cH = 450;
 
 //checkerboard
 bLogoCtx.beginPath();
