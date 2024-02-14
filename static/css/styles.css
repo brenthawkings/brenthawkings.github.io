@@ -12,7 +12,7 @@ body {
   box-shadow: 0px 0px 15px 15px #bdbdbd;
   padding-right: 25px;
   padding-bottom: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   /*BORDER CODE*/
 }
 .name {
@@ -20,9 +20,11 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 5.5em;
-  margin-top: 25px;
+  margin-top: 35px;
   margin-left: 20px;
   margin-bottom: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 h2 {
   font-size: 3em;
@@ -37,6 +39,7 @@ h4 {
   display: flex;
   margin-top: 11px;
   margin-bottom: 0px;
+  padding-left: 10px;
 }
 .webdev-h2 {
   margin-top: 105px;
@@ -46,6 +49,7 @@ h4 {
 .uiux {
   display: flex;
   margin-top: -30px;
+  padding-left: 10px;
 }
 .uiux-h2 {
   margin-top: 165px;
@@ -54,6 +58,7 @@ h4 {
 .uofl {
   display: flex;
   margin-top: 15px;
+  padding-left: 10px;
 }
 .uofl-text {
   margin-top: 40px;
@@ -75,6 +80,7 @@ h4 {
   margin-top: 64px;
   margin-left: 40px;
   margin-bottom: 75px;
+  padding-left: 10px;
 }
 .job-text {
   margin-top: 50px;
@@ -93,6 +99,7 @@ h4 {
 .links-wrapper {
   max-width: fit-content;
   margin: auto;
+  padding-left: 10px;
 }
 .links {
   margin-bottom: 0px;
