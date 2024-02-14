@@ -65,7 +65,7 @@ h4 {
   display: flex;
   margin-top: 50px;
   margin-left: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 .job-text {
   margin-top: 58px;
@@ -80,4 +80,11 @@ h4 {
 }
 .job-h4 {
   margin-top: 10px;
+}
+.links-wrapper {
+  max-width: fit-content;
+  margin: auto;
+}
+.links {
+  margin-bottom: 50px;
 }
