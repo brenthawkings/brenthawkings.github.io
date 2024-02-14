@@ -12,26 +12,26 @@ body {
   background: -webkit-linear-gradient(60deg, #ff0000, #ffff00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 4.5em;
+  font-size: 5.5em;
   margin-top: 15px;
   margin-left: 20px;
   margin-bottom: 0px;
 }
 h2 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 h3 {
-  font-size: 1.75em;
+  font-size: 2em;
 }
 h4 {
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 .webdev {
   display: flex;
   margin-bottom: 0px;
 }
 .webdev-h2 {
-  margin-top: 117px;
+  margin-top: 105px;
   margin-left: 40px;
   margin-right: 25px;
 }
@@ -40,14 +40,14 @@ h4 {
   margin-top: -30px;
 }
 .uiux-h2 {
-  margin-top: 172px;
+  margin-top: 165px;
   margin-left: 10px;
 }
 .uofl {
   display: flex;
 }
 .uofl-text {
-  margin-top: 55px;
+  margin-top: 40px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -68,7 +68,7 @@ h4 {
   margin-bottom: 75px;
 }
 .job-text {
-  margin-top: 58px;
+  margin-top: 50px;
   margin-left: 47px;
 }
 .job-h2 {
@@ -86,5 +86,5 @@ h4 {
   margin: auto;
 }
 .links {
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
